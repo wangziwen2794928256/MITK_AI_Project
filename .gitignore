@@ -1,0 +1,21 @@
+# 大体积模型权重（请通过 TotalSegmentator 官方渠道下载）
+Models/
+
+# 患者 CT 影像数据（体积过大且涉及数据管理要求，不上传）
+Dataset/
+
+# 课件已独立成仓库：wangziwen2794928256/Research-Innovation-Class
+科研创新课堂/
+
+# 第三方源码克隆（nnUNet / TotalSegmentator）内嵌的 git 数据
+AI/nnUNet/nnunetv2/.git/
+AI/TotalSegmentator/TotalSegmentator/.git/
+
+# 本地临时脚本与密钥
+_redact.py
+_gitpush.py
+_repo.json
+_gh_key
+_gh_key.pub
+*.tmp
+__pycache__/
