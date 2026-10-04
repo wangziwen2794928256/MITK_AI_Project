@@ -1,0 +1,15 @@
+[console_scripts]
+TotalSegmentator = totalsegmentator.bin.TotalSegmentator:main
+crop_to_body = totalsegmentator.bin.crop_to_body:main
+totalseg_aorta_report = totalsegmentator.bin.totalseg_aorta_report:main
+totalseg_combine_masks = totalsegmentator.bin.totalseg_combine_masks:main
+totalseg_download_weights = totalsegmentator.bin.totalseg_download_weights:main
+totalseg_evans_index = totalsegmentator.bin.totalseg_evans_index:main
+totalseg_get_body_stats = totalsegmentator.bin.totalseg_get_body_stats:main
+totalseg_get_modality = totalsegmentator.bin.totalseg_get_modality:main
+totalseg_get_phase = totalsegmentator.bin.totalseg_get_phase:main
+totalseg_import_weights = totalsegmentator.bin.totalseg_import_weights:main
+totalseg_info = totalsegmentator.bin.totalseg_info:main
+totalseg_set_license = totalsegmentator.bin.totalseg_set_license:main
+totalseg_setup_manually = totalsegmentator.bin.totalseg_setup_manually:main
+totalseg_spine_report = totalsegmentator.bin.totalseg_spine_report:main

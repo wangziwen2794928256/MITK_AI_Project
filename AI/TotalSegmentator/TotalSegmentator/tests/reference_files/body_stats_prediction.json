@@ -1,0 +1,37 @@
+{
+    "weight": {
+        "value": 76.99,
+        "min": 75.58,
+        "max": 78.43,
+        "stddev": 1.2121,
+        "unit": "kg"
+    },
+    "size": {
+        "value": 177.12,
+        "min": 172.84,
+        "max": 180.58,
+        "stddev": 2.5367,
+        "unit": "cm"
+    },
+    "age": {
+        "value": 47.54,
+        "min": 26.67,
+        "max": 55.85,
+        "stddev": 10.6838,
+        "unit": "years"
+    },
+    "sex": {
+        "value": "M",
+        "probability": 0.7447,
+        "stddev": 0.2041,
+        "unit": null
+    },
+    "bmi": {
+        "value": 24.54,
+        "unit": "kg/m^2"
+    },
+    "bsa": {
+        "value": 1.95,
+        "unit": "m^2"
+    }
+}

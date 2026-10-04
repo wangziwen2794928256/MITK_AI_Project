@@ -1,0 +1,590 @@
+{
+    "landmarks": {
+        "1": {
+            "name": "annulus",
+            "area": 4.9,
+            "area_fl": 0.0,
+            "area_tl": 1.8,
+            "diameter": 2.7,
+            "diameter_pd": 2.3,
+            "start": [
+                -25.1193,
+                181.9884,
+                668.8093
+            ],
+            "end": [
+                -2.4558,
+                183.6815,
+                653.3386
+            ],
+            "start_pd": [
+                -16.1809,
+                195.6315,
+                658.3684
+            ],
+            "end_pd": [
+                -9.6823,
+                173.6885,
+                661.433
+            ],
+            "start_voxel": [
+                14,
+                27,
+                30
+            ],
+            "end_voxel": [
+                48,
+                32,
+                30
+            ],
+            "start_pd_voxel": [
+                29,
+                46,
+                30
+            ],
+            "end_pd_voxel": [
+                36,
+                18,
+                30
+            ],
+            "diameter_fl": 0.0,
+            "diameter_fl_pd": 0.0,
+            "diameter_tl": 2.7,
+            "diameter_tl_pd": 2.0
+        },
+        "2": {
+            "name": "sinuses of valsalva",
+            "area": 5.4,
+            "area_fl": 3.5,
+            "area_tl": 1.3,
+            "diameter": 2.8,
+            "diameter_pd": 2.6,
+            "start": [
+                -2.542,
+                155.2392,
+                549.7099
+            ],
+            "end": [
+                7.8584,
+                129.6738,
+                548.3832
+            ],
+            "start_pd": [
+                -12.1417,
+                138.4622,
+                548.8286
+            ],
+            "end_pd": [
+                11.0581,
+                149.6466,
+                549.427
+            ],
+            "start_voxel": [
+                26,
+                48,
+                11
+            ],
+            "end_voxel": [
+                39,
+                16,
+                11
+            ],
+            "start_pd_voxel": [
+                14,
+                27,
+                11
+            ],
+            "end_pd_voxel": [
+                43,
+                41,
+                11
+            ],
+            "diameter_fl": 2.5,
+            "diameter_fl_pd": 1.7,
+            "diameter_tl": 0.1,
+            "diameter_tl_pd": 2.5
+        },
+        "3": {
+            "name": "sinotub. junc.",
+            "area": 8.1,
+            "area_fl": 0.0,
+            "area_tl": 7.3,
+            "diameter": 3.4,
+            "diameter_pd": 3.2,
+            "start": [
+                -18.2317,
+                176.211,
+                684.1798
+            ],
+            "end": [
+                8.4239,
+                195.9428,
+                677.8571
+            ],
+            "start_pd": [
+                -12.9166,
+                204.0706,
+                680.8705
+            ],
+            "end_pd": [
+                4.6159,
+                177.6374,
+                680.0864
+            ],
+            "start_voxel": [
+                15,
+                15,
+                31
+            ],
+            "end_voxel": [
+                49,
+                40,
+                31
+            ],
+            "start_pd_voxel": [
+                22,
+                50,
+                31
+            ],
+            "end_pd_voxel": [
+                44,
+                17,
+                31
+            ],
+            "diameter_fl": 0.0,
+            "diameter_fl_pd": 0.0,
+            "diameter_tl": 3.2,
+            "diameter_tl_pd": 3.0
+        },
+        "4": {
+            "name": "mid asc. aorta",
+            "area": 8.2,
+            "area_fl": 0.0,
+            "area_tl": 7.5,
+            "diameter": 3.5,
+            "diameter_pd": 3.2,
+            "start": [
+                -10.6652,
+                168.621,
+                694.5811
+            ],
+            "end": [
+                0.7725,
+                200.3369,
+                702.6159
+            ],
+            "start_pd": [
+                -19.2683,
+                190.9232,
+                701.2353
+            ],
+            "end_pd": [
+                10.1931,
+                180.3552,
+                696.5507
+            ],
+            "start_voxel": [
+                23,
+                10,
+                30
+            ],
+            "end_voxel": [
+                37,
+                51,
+                30
+            ],
+            "start_pd_voxel": [
+                12,
+                39,
+                30
+            ],
+            "end_pd_voxel": [
+                49,
+                25,
+                30
+            ],
+            "diameter_fl": 0.0,
+            "diameter_fl_pd": 0.0,
+            "diameter_tl": 3.3,
+            "diameter_tl_pd": 3.0
+        },
+        "5": {
+            "name": "distal asc. aorta",
+            "area": 7.6,
+            "area_fl": 0.0,
+            "area_tl": 6.9,
+            "diameter": 3.3,
+            "diameter_pd": 3.1,
+            "start": [
+                -19.391,
+                187.1762,
+                717.8899
+            ],
+            "end": [
+                7.8484,
+                168.8419,
+                717.3752
+            ],
+            "start_pd": [
+                -12.636,
+                165.3674,
+                713.2571
+            ],
+            "end_pd": [
+                4.2718,
+                189.815,
+                722.2882
+            ],
+            "start_voxel": [
+                13,
+                41,
+                31
+            ],
+            "end_voxel": [
+                47,
+                18,
+                31
+            ],
+            "start_pd_voxel": [
+                21,
+                13,
+                31
+            ],
+            "end_pd_voxel": [
+                43,
+                45,
+                31
+            ],
+            "diameter_fl": 0.0,
+            "diameter_fl_pd": 0.0,
+            "diameter_tl": 3.2,
+            "diameter_tl_pd": 3.0
+        },
+        "6": {
+            "name": "mid aortic arch",
+            "area": 6.6,
+            "area_fl": 2.1,
+            "area_tl": 3.9,
+            "diameter": 3.3,
+            "diameter_pd": 2.9,
+            "start": [
+                -29.2867,
+                180.6968,
+                729.8695
+            ],
+            "end": [
+                -1.3922,
+                165.025,
+                737.8878
+            ],
+            "start_pd": [
+                -18.9093,
+                163.4217,
+                722.2615
+            ],
+            "end_pd": [
+                -16.4775,
+                183.3225,
+                742.641
+            ],
+            "start_voxel": [
+                12,
+                39,
+                30
+            ],
+            "end_voxel": [
+                50,
+                23,
+                30
+            ],
+            "start_pd_voxel": [
+                22,
+                14,
+                30
+            ],
+            "end_pd_voxel": [
+                33,
+                48,
+                30
+            ],
+            "diameter_fl": 2.3,
+            "diameter_fl_pd": 1.7,
+            "diameter_tl": 2.4,
+            "diameter_tl_pd": 2.2
+        },
+        "7": {
+            "name": "proximal desc. aorta",
+            "area": 6.9,
+            "area_fl": 1.3,
+            "area_tl": 4.9,
+            "diameter": 3.3,
+            "diameter_pd": 2.9,
+            "start": [
+                -28.4802,
+                160.8914,
+                758.47
+            ],
+            "end": [
+                -8.7596,
+                152.2023,
+                733.383
+            ],
+            "start_pd": [
+                -27.9183,
+                154.179,
+                732.8937
+            ],
+            "end_pd": [
+                -6.3573,
+                156.8534,
+                752.2837
+            ],
+            "start_voxel": [
+                21,
+                49,
+                30
+            ],
+            "end_voxel": [
+                43,
+                14,
+                30
+            ],
+            "start_pd_voxel": [
+                19,
+                16,
+                30
+            ],
+            "end_pd_voxel": [
+                48,
+                38,
+                30
+            ],
+            "diameter_fl": 2.6,
+            "diameter_fl_pd": 0.9,
+            "diameter_tl": 2.8,
+            "diameter_tl_pd": 2.5
+        },
+        "8": {
+            "name": "mid desc. aorta",
+            "area": 6.9,
+            "area_fl": 4.5,
+            "area_tl": 1.6,
+            "diameter": 3.1,
+            "diameter_pd": 2.9,
+            "start": [
+                -44.9411,
+                98.4954,
+                665.1291
+            ],
+            "end": [
+                -15.3425,
+                108.8195,
+                666.4141
+            ],
+            "start_pd": [
+                -31.3437,
+                119.1492,
+                667.6052
+            ],
+            "end_pd": [
+                -22.5403,
+                91.3427,
+                664.3278
+            ],
+            "start_voxel": [
+                13,
+                24,
+                31
+            ],
+            "end_voxel": [
+                50,
+                37,
+                31
+            ],
+            "start_pd_voxel": [
+                30,
+                50,
+                31
+            ],
+            "end_pd_voxel": [
+                41,
+                15,
+                31
+            ],
+            "diameter_fl": 2.8,
+            "diameter_fl_pd": 2.1,
+            "diameter_tl": 0.0,
+            "diameter_tl_pd": 3.0
+        },
+        "9": {
+            "name": "desc. aorta (T12)",
+            "area": 7.0,
+            "area_fl": 4.6,
+            "area_tl": 1.7,
+            "diameter": 3.1,
+            "diameter_pd": 3.0,
+            "start": [
+                -12.147,
+                141.5697,
+                574.5256
+            ],
+            "end": [
+                17.4643,
+                132.1626,
+                572.7945
+            ],
+            "start_pd": [
+                -2.5225,
+                124.3874,
+                570.7764
+            ],
+            "end_pd": [
+                7.8364,
+                151.6861,
+                577.0719
+            ],
+            "start_voxel": [
+                12,
+                36,
+                31
+            ],
+            "end_voxel": [
+                49,
+                24,
+                31
+            ],
+            "start_pd_voxel": [
+                24,
+                14,
+                31
+            ],
+            "end_pd_voxel": [
+                37,
+                49,
+                31
+            ],
+            "diameter_fl": 2.9,
+            "diameter_fl_pd": 2.0,
+            "diameter_tl": 0.0,
+            "diameter_tl_pd": 3.0
+        },
+        "10": {
+            "name": "abd. aorta (celiac artery)",
+            "area": 6.5,
+            "area_fl": 4.2,
+            "area_tl": 1.6,
+            "diameter": 3.0,
+            "diameter_pd": 2.8,
+            "start": [
+                -13.7037,
+                139.9285,
+                566.8551
+            ],
+            "end": [
+                15.803,
+                133.0458,
+                563.6954
+            ],
+            "start_pd": [
+                -1.8041,
+                126.6703,
+                563.4519
+            ],
+            "end_pd": [
+                5.543,
+                153.3697,
+                568.4357
+            ],
+            "start_voxel": [
+                11,
+                31,
+                31
+            ],
+            "end_voxel": [
+                48,
+                22,
+                31
+            ],
+            "start_pd_voxel": [
+                26,
+                14,
+                31
+            ],
+            "end_pd_voxel": [
+                35,
+                48,
+                31
+            ],
+            "diameter_fl": 2.8,
+            "diameter_fl_pd": 1.8,
+            "diameter_tl": 0.3,
+            "diameter_tl_pd": 2.8
+        },
+        "11": {
+            "name": "abd. aorta (bifurcation)",
+            "area": null,
+            "area_fl": null,
+            "area_tl": null,
+            "diameter": null,
+            "diameter_fl": null,
+            "diameter_tl": null,
+            "diameter_pd": null,
+            "diameter_fl_pd": null,
+            "diameter_tl_pd": null,
+            "start": null,
+            "end": null,
+            "start_pd": null,
+            "end_pd": null
+        }
+    },
+    "section_stats": {
+        "aorta_ascending": {
+            "length": 6.8,
+            "max_diameter": 3.8,
+            "volume": 43.5,
+            "volume_true_lumen": 43.5,
+            "volume_false_lumen": 0.0
+        },
+        "aorta_arch": {
+            "length": 4.4,
+            "max_diameter": 3.7,
+            "volume": 25.0,
+            "volume_true_lumen": 18.7,
+            "volume_false_lumen": 6.3
+        },
+        "aorta_descending": {
+            "length": 26.0,
+            "max_diameter": 4.7,
+            "volume": 172.0,
+            "volume_true_lumen": 69.2,
+            "volume_false_lumen": 102.8
+        },
+        "aorta_abdominal": {
+            "length": null,
+            "max_diameter": null,
+            "max_diameter_perpendicular": null,
+            "volume": null,
+            "volume_true_lumen": null,
+            "volume_false_lumen": null
+        },
+        "aorta_total": {
+            "length": null,
+            "max_diameter": null,
+            "max_diameter_perpendicular": null,
+            "volume": null,
+            "volume_true_lumen": null,
+            "volume_false_lumen": null
+        }
+    },
+    "metadata": {
+        "PatientName": "Unknown",
+        "PatientSex": "M",
+        "PatientAge": 55,
+        "PatientBirthDate": "19000101",
+        "PatientID": "Unknown",
+        "StudyID": "Unknown",
+        "StudyDescription": "Unknown",
+        "StudyDate": "19000101",
+        "version": "0.1.1"
+    }
+}
