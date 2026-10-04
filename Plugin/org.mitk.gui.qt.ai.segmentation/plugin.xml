@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+
+    <extension point="org.blueberry.ui.views">
+
+        <view
+
+            id="org.mitk.gui.qt.ai.segmentation"
+
+            name="AI Segmentation"
+
+            class="AIsegmentationView"
+
+            icon="resources/icons/AI.svg"
+
+            restorable="true"/>
+
+
+    </extension>
+
+
+</plugin>

@@ -1,0 +1,8 @@
+{
+    "id": "org.mitk.gui.qt.ai.segmentation",
+    "name": "AI Segmentation",
+    "version": "1.0.0",
+    "vendor": "MITK AI Research",
+    "description":
+    "AI medical image segmentation plugin based on nnUNet"
+}
