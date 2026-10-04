@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="{{ styles_path }}">
+  <title>Aorta Report</title>
+</head>
+
+<body class="w-100 sans-serif bg-black">
+
+  <header class="pt3 ph2-ns bg-black white">
+    <div class="flex flex-wrap justify-between">
+      <div class="w-third">
+        <img src="{{ usb_logo_path }}" height=50>
+      </div>
+      <div class="w-third tc">
+        <div class="f3 fw6 mt0 mb1  white">
+          Aorta Report
+          <div class="dib">
+            <small class="nowrap f6 mt2 mt3-ns pr2 white fw2">{{ metadata['version'] }}</small>
+          </div>
+        </div>
+        <a class="dib f7 mt0 mb0 white">Generated on: <span class="fw6">{{ now() }} </span></a>
+      </div>
+      <div class="w-third justify-end tr">
+        <img src="{{ logo_path }}" height=50>
+      </div>
+    </div>
+  </header>
+
+  <main class="bg-black white">
+
+    <div class="pv1 ph3 bgc">
+      <div class="flex flex-wrap pb2">
+        <div class="w-two-thirds pb2 pr1">
+          <div class="flex justify-center">
+            Overview
+          </div>
+
+          <img src="{{ preview_3d }}" class="w-100">
+
+          <table class="w-100 ba collapse b--light-silver white mt2">
+            <thead>
+              <tr>
+                <th class="fw6 tl pa3">Section</th>
+                <th class="fw6 tl pa3">Length</th>
+                <th class="fw6 tl pa3">Max. Dia.</th>
+                <th class="fw6 tl pa3">Volume</th>
+                <th class="fw6 tl pa3">Volume FL</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for section_name, section in section_stats.items() %}
+              <tr class="stripe-darker">
+                <td class="pa3">{{ rm_underscores(section_name) }}</td>
+                <td class="pa3">{{ section.length }} cm</td>
+                <td class="pa3">{{ section.max_diameter }} cm</td>
+                <td class="pa3">{{ section.volume }} ml</td>
+                <td class="pa3">{{ section.volume_false_lumen }} ml</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+        </div>
+        <div class="w-third pb2 pr2">
+          <div class="flex justify-center">
+            Landmarks
+          </div>
+          {% for lm_nr, lm in landmarks.items() %}
+          <div class="flex flex-wrap">
+            <div class="w-50 pb2 pr2">
+              {% if lm.empty %}
+              <img src="{{ empty_img_path }}" width=150px>
+              {% else %}
+              <img src="{{ lm.plane_img }}" width=150px>
+              {% endif %}
+            </div>
+            <div class="w-50 pb2">
+              <div class="f4"><b class="bb">{{ lm_nr }} - {{ lm.name }}</b></div>
+              {% if lm.empty %}
+              <div>not in image</div>
+              {% else %}
+              <div class="f4 green">▧: <b>{{ lm.area }} cm²</b></div>
+              <div class="f4 green">⌀: <b>{{ lm.diameter }} x {{ lm.diameter_pd }} cm</b></div>
+              {% if lm.area_fl %}
+              <div class="f4 red">▧: <b>{{ lm.area_fl }} cm²</b></div>
+              <div class="f4 red">⌀: <b>{{ lm.diameter_fl }} x {{ lm.diameter_fl_pd }} cm</b></div>
+              {% endif %}
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- <div class="f6 pt2">
+        additional infos...
+      </div> -->
+    </div>
+    
+  </main>
+
+  <footer class="ph2 ph2-l moon-gray bt b--moon-gray">
+    <div class="cf">
+      <h1 class="fl w-100 pv0 f7 fw6 tracked">This software is a prototype version and is not designed or intended for
+        use in the
+        diagnosis or classification of any medical complaint or for any other medical use. The user
+        represents and warrants that it will not use or redistribute the Software for such purposes.
+        This prototype is for medical research purposes only. This software is provided "AS IS,"
+        without a warranty of any kind. </h1>
+      <h1 class="fl w-100 pv0 f7 fw6 tracked">
+          If used for research purposes, following article(s) should be cited: https://pubs.rsna.org/doi/10.1148/ryai.230024
+      </h1>
+      <h1 class="f7">Copyright © AI Lab, Department of Radiology, University Hospital Basel</h1>
+    </div>
+    
+  </footer>
+</body>
+
+</html>
